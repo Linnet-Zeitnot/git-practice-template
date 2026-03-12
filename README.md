@@ -44,18 +44,24 @@ git push
 
 и закоммитьте:
 
-git add README.md  
-git commit -m "Add student token"  
+```
+git add README.md
+git commit -m "Add student token"
 git push
+```
 
-Если появился конфликт в test.txt, откройте файл и приведите его к такому виду:
+Если появился конфликт в `test.txt`, откройте файл и приведите его к такому виду:
 
+```
 Первая версия файла
 Изменение во второй ветке
 Изменение в main
+```
 
 Затем выполните:
 
+```
 git add test.txt
 git commit -m "merge feature"
 git push
+```
